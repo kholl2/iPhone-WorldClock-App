@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="AfterAddingCityEntity" representedClassName=".DeletedCityEntity" syncable="YES">
+        <attribute name="cityArray" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ControllerEntity" syncable="YES">
+        <attribute name="controllerString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FinalCityEntity" representedClassName=".FinalCityEntity" syncable="YES">
+        <attribute name="cityArray" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LapStringEntity" representedClassName=".LapStringEntity" syncable="YES">
+        <attribute name="lapString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LapTimerEntity" representedClassName=".LapTimerEntity" syncable="YES">
+        <attribute name="lapTimerData" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="MainTimerEntity" representedClassName=".MainTimerEntity" syncable="YES">
+        <attribute name="timerData" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="StartButtonBoolEntity" representedClassName=".StartButtonBoolEntity" syncable="YES">
+        <attribute name="startIsActive" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+    </entity>
+    <entity name="TimeEntity" representedClassName=".TimeEntity" syncable="YES">
+        <attribute name="currentCity" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TimePassedEntity" representedClassName=".TimePassedEntity" syncable="YES">
+        <attribute name="lapTimePassedAttr" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timePassedAttr" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="TimerString" representedClassName=".TimerString" syncable="YES">
+        <attribute name="lapTimerDisplayString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timerDisplayString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AfterAddingCityEntity" positionX="0" positionY="54" width="128" height="60"/>
+        <element name="FinalCityEntity" positionX="-9" positionY="45" width="128" height="60"/>
+        <element name="LapStringEntity" positionX="-18" positionY="45" width="128" height="60"/>
+        <element name="LapTimerEntity" positionX="-27" positionY="36" width="128" height="60"/>
+        <element name="MainTimerEntity" positionX="-54" positionY="0" width="128" height="60"/>
+        <element name="StartButtonBoolEntity" positionX="-36" positionY="18" width="128" height="60"/>
+        <element name="TimeEntity" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="TimePassedEntity" positionX="-36" positionY="18" width="128" height="75"/>
+        <element name="TimerString" positionX="-45" positionY="9" width="128" height="75"/>
+        <element name="ControllerEntity" positionX="-27" positionY="27" width="128" height="60"/>
+    </elements>
+</model>

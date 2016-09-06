@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1301AB051BF1790B00A4DAD8 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1301AB041BF1790B00A4DAD8 /* PushButton.swift */; };
+		1301AB071BF17F7600A4DAD8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1301AB061BF17F7600A4DAD8 /* TableViewController.swift */; };
+		1301AB0F1BF2EAA000A4DAD8 /* WorldClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1301AB0E1BF2EAA000A4DAD8 /* WorldClockModel.swift */; };
+		1315B7461C06602B00E8B2F3 /* StartButtonBoolEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7441C06602B00E8B2F3 /* StartButtonBoolEntity+CoreDataProperties.swift */; };
+		1315B7471C06602B00E8B2F3 /* StartButtonBoolEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7451C06602B00E8B2F3 /* StartButtonBoolEntity.swift */; };
+		1315B74A1C06C78000E8B2F3 /* TimerString+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7481C06C78000E8B2F3 /* TimerString+CoreDataProperties.swift */; };
+		1315B74B1C06C78000E8B2F3 /* TimerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7491C06C78000E8B2F3 /* TimerString.swift */; };
+		1315B74D1C06C7B800E8B2F3 /* TimerStringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B74C1C06C7B800E8B2F3 /* TimerStringData.swift */; };
+		1315B74F1C06C7CC00E8B2F3 /* TimerStringDataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B74E1C06C7CC00E8B2F3 /* TimerStringDataPersistance.swift */; };
+		1315B7511C06CC7700E8B2F3 /* TimerStringModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7501C06CC7700E8B2F3 /* TimerStringModel.swift */; };
+		1315B7541C07946900E8B2F3 /* TimePassedEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7521C07946900E8B2F3 /* TimePassedEntity+CoreDataProperties.swift */; };
+		1315B7551C07946900E8B2F3 /* TimePassedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7531C07946900E8B2F3 /* TimePassedEntity.swift */; };
+		1315B7571C07948A00E8B2F3 /* TimePassedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7561C07948A00E8B2F3 /* TimePassedData.swift */; };
+		1315B7591C07949C00E8B2F3 /* TimePassedDataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7581C07949C00E8B2F3 /* TimePassedDataPersistance.swift */; };
+		1315B75B1C0799F100E8B2F3 /* TimePassedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B75A1C0799F100E8B2F3 /* TimePassedModel.swift */; };
+		1315B75E1C07BD3100E8B2F3 /* LapTimerEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B75C1C07BD3100E8B2F3 /* LapTimerEntity+CoreDataProperties.swift */; };
+		1315B75F1C07BD3100E8B2F3 /* LapTimerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B75D1C07BD3100E8B2F3 /* LapTimerEntity.swift */; };
+		1315B7611C07BD5600E8B2F3 /* LapTimerDataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7601C07BD5600E8B2F3 /* LapTimerDataPersistance.swift */; };
+		1315B7631C07BD6400E8B2F3 /* LapTimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7621C07BD6400E8B2F3 /* LapTimerData.swift */; };
+		1315B7651C07BE1A00E8B2F3 /* LapTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7641C07BE1A00E8B2F3 /* LapTimerModel.swift */; };
+		1315B7681C07C09900E8B2F3 /* LapStringEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7661C07C09900E8B2F3 /* LapStringEntity+CoreDataProperties.swift */; };
+		1315B7691C07C09900E8B2F3 /* LapStringEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B7671C07C09900E8B2F3 /* LapStringEntity.swift */; };
+		1315B76B1C07C0C500E8B2F3 /* LapStringDataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B76A1C07C0C500E8B2F3 /* LapStringDataPersistance.swift */; };
+		1315B76D1C07C0D400E8B2F3 /* LapStringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B76C1C07C0D400E8B2F3 /* LapStringData.swift */; };
+		1315B76F1C07C83A00E8B2F3 /* LapStringModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315B76E1C07C83A00E8B2F3 /* LapStringModel.swift */; };
+		133B702C1BED9435009B227D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B702B1BED9435009B227D /* AppDelegate.swift */; };
+		133B702E1BED9435009B227D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B702D1BED9435009B227D /* ViewController.swift */; };
+		133B70311BED9435009B227D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133B702F1BED9435009B227D /* Main.storyboard */; };
+		133B70361BED9435009B227D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133B70351BED9435009B227D /* Assets.xcassets */; };
+		133B70391BED9435009B227D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133B70371BED9435009B227D /* LaunchScreen.storyboard */; };
+		134EE6581C0AC2FC00790C15 /* AfterAddingCityPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EE6571C0AC2FC00790C15 /* AfterAddingCityPersistance.swift */; };
+		134EE65A1C0AC30E00790C15 /* AfterAddingCityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EE6591C0AC30E00790C15 /* AfterAddingCityData.swift */; };
+		134EE65C1C0AC4C000790C15 /* CitiesAfterSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EE65B1C0AC4C000790C15 /* CitiesAfterSelectionModel.swift */; };
+		134EE66A1C0BD64900790C15 /* project3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 134EE6681C0BD64900790C15 /* project3.xcdatamodeld */; };
+		134EE66D1C0BD6C500790C15 /* FinalCityEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EE66B1C0BD6C500790C15 /* FinalCityEntity+CoreDataProperties.swift */; };
+		134EE66E1C0BD6C500790C15 /* FinalCityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EE66C1C0BD6C500790C15 /* FinalCityEntity.swift */; };
+		139BE3081BF5B30300E51FE6 /* SearchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BE3071BF5B30300E51FE6 /* SearchClass.swift */; };
+		13C6E7271C00DD6D00C5D728 /* ClockHoldingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C6E7261C00DD6D00C5D728 /* ClockHoldingView.swift */; };
+		13C6E72A1C0399FF00C5D728 /* SlideMenuKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C6E7281C0399E800C5D728 /* SlideMenuKit.framework */; };
+		13C6E72B1C0399FF00C5D728 /* SlideMenuKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13C6E7281C0399E800C5D728 /* SlideMenuKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13EF0AA91C03C8E600D85E90 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AA81C03C8E600D85E90 /* MainNavigationController.swift */; };
+		13EF0ACF1C03EF8D00D85E90 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0ACE1C03EF8D00D85E90 /* TimerController.swift */; };
+		13EF0AD71C0421EC00D85E90 /* DataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AD61C0421EC00D85E90 /* DataPersistance.swift */; };
+		13EF0ADA1C0422D900D85E90 /* TimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AD91C0422D900D85E90 /* TimeData.swift */; };
+		13EF0ADD1C04243100D85E90 /* TimeEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0ADB1C04243100D85E90 /* TimeEntity+CoreDataProperties.swift */; };
+		13EF0ADE1C04243100D85E90 /* TimeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0ADC1C04243100D85E90 /* TimeEntity.swift */; };
+		13EF0AE01C04339500D85E90 /* TimeLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0ADF1C04339500D85E90 /* TimeLocationModel.swift */; };
+		13EF0AE31C05190300D85E90 /* MainTimerEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AE11C05190300D85E90 /* MainTimerEntity+CoreDataProperties.swift */; };
+		13EF0AE41C05190300D85E90 /* MainTimerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AE21C05190300D85E90 /* MainTimerEntity.swift */; };
+		13EF0AE61C05193D00D85E90 /* TimerDataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AE51C05193D00D85E90 /* TimerDataPersistance.swift */; };
+		13EF0AEA1C0519FD00D85E90 /* MainTimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AE91C0519FD00D85E90 /* MainTimerData.swift */; };
+		13EF0AEC1C051EAB00D85E90 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AEB1C051EAB00D85E90 /* TimerModel.swift */; };
+		13EF0AF41C052E9F00D85E90 /* TimerModelObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AF31C052E9F00D85E90 /* TimerModelObjC.m */; };
+		13EF0AF81C05781A00D85E90 /* MainTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AF71C05781A00D85E90 /* MainTimerModel.swift */; };
+		13EF0AFA1C06139700D85E90 /* StartButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AF91C06139700D85E90 /* StartButtonData.swift */; };
+		13EF0B001C0613FF00D85E90 /* StartButtonDataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0AFF1C0613FF00D85E90 /* StartButtonDataPersistance.swift */; };
+		13EF0B021C06173800D85E90 /* StartButtonStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF0B011C06173800D85E90 /* StartButtonStatus.swift */; };
+		13F9FF571C0037BE0059A08E /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9FF561C0037BE0059A08E /* ClockFace.swift */; };
+		13F9FF591C003A940059A08E /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9FF581C003A940059A08E /* ClockView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13C6E72C1C0399FF00C5D728 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				13C6E72B1C0399FF00C5D728 /* SlideMenuKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1301AB041BF1790B00A4DAD8 /* PushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		1301AB061BF17F7600A4DAD8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1301AB0E1BF2EAA000A4DAD8 /* WorldClockModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClockModel.swift; sourceTree = "<group>"; };
+		1315B7441C06602B00E8B2F3 /* StartButtonBoolEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StartButtonBoolEntity+CoreDataProperties.swift"; path = "../StartButtonBoolEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1315B7451C06602B00E8B2F3 /* StartButtonBoolEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartButtonBoolEntity.swift; path = ../StartButtonBoolEntity.swift; sourceTree = "<group>"; };
+		1315B7481C06C78000E8B2F3 /* TimerString+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimerString+CoreDataProperties.swift"; path = "../TimerString+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1315B7491C06C78000E8B2F3 /* TimerString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerString.swift; path = ../TimerString.swift; sourceTree = "<group>"; };
+		1315B74C1C06C7B800E8B2F3 /* TimerStringData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerStringData.swift; sourceTree = "<group>"; };
+		1315B74E1C06C7CC00E8B2F3 /* TimerStringDataPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerStringDataPersistance.swift; sourceTree = "<group>"; };
+		1315B7501C06CC7700E8B2F3 /* TimerStringModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerStringModel.swift; sourceTree = "<group>"; };
+		1315B7521C07946900E8B2F3 /* TimePassedEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimePassedEntity+CoreDataProperties.swift"; path = "../TimePassedEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1315B7531C07946900E8B2F3 /* TimePassedEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimePassedEntity.swift; path = ../TimePassedEntity.swift; sourceTree = "<group>"; };
+		1315B7561C07948A00E8B2F3 /* TimePassedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePassedData.swift; sourceTree = "<group>"; };
+		1315B7581C07949C00E8B2F3 /* TimePassedDataPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePassedDataPersistance.swift; sourceTree = "<group>"; };
+		1315B75A1C0799F100E8B2F3 /* TimePassedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePassedModel.swift; sourceTree = "<group>"; };
+		1315B75C1C07BD3100E8B2F3 /* LapTimerEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LapTimerEntity+CoreDataProperties.swift"; path = "../LapTimerEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1315B75D1C07BD3100E8B2F3 /* LapTimerEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LapTimerEntity.swift; path = ../LapTimerEntity.swift; sourceTree = "<group>"; };
+		1315B7601C07BD5600E8B2F3 /* LapTimerDataPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapTimerDataPersistance.swift; sourceTree = "<group>"; };
+		1315B7621C07BD6400E8B2F3 /* LapTimerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapTimerData.swift; sourceTree = "<group>"; };
+		1315B7641C07BE1A00E8B2F3 /* LapTimerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapTimerModel.swift; sourceTree = "<group>"; };
+		1315B7661C07C09900E8B2F3 /* LapStringEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LapStringEntity+CoreDataProperties.swift"; path = "../LapStringEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1315B7671C07C09900E8B2F3 /* LapStringEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LapStringEntity.swift; path = ../LapStringEntity.swift; sourceTree = "<group>"; };
+		1315B76A1C07C0C500E8B2F3 /* LapStringDataPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapStringDataPersistance.swift; sourceTree = "<group>"; };
+		1315B76C1C07C0D400E8B2F3 /* LapStringData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapStringData.swift; sourceTree = "<group>"; };
+		1315B76E1C07C83A00E8B2F3 /* LapStringModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapStringModel.swift; sourceTree = "<group>"; };
+		133B70281BED9435009B227D /* project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133B702B1BED9435009B227D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		133B702D1BED9435009B227D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		133B70301BED9435009B227D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		133B70351BED9435009B227D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		133B70381BED9435009B227D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		133B703A1BED9435009B227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134EE6571C0AC2FC00790C15 /* AfterAddingCityPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterAddingCityPersistance.swift; sourceTree = "<group>"; };
+		134EE6591C0AC30E00790C15 /* AfterAddingCityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterAddingCityData.swift; sourceTree = "<group>"; };
+		134EE65B1C0AC4C000790C15 /* CitiesAfterSelectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesAfterSelectionModel.swift; sourceTree = "<group>"; };
+		134EE6691C0BD64900790C15 /* project3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = project3.xcdatamodel; sourceTree = "<group>"; };
+		134EE66B1C0BD6C500790C15 /* FinalCityEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FinalCityEntity+CoreDataProperties.swift"; path = "../FinalCityEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		134EE66C1C0BD6C500790C15 /* FinalCityEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalCityEntity.swift; path = ../FinalCityEntity.swift; sourceTree = "<group>"; };
+		139BE3071BF5B30300E51FE6 /* SearchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchClass.swift; sourceTree = "<group>"; };
+		13C6E7261C00DD6D00C5D728 /* ClockHoldingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockHoldingView.swift; sourceTree = "<group>"; };
+		13C6E7281C0399E800C5D728 /* SlideMenuKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SlideMenuKit.framework; sourceTree = "<group>"; };
+		13EF0AA81C03C8E600D85E90 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		13EF0ACE1C03EF8D00D85E90 /* TimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		13EF0AD61C0421EC00D85E90 /* DataPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataPersistance.swift; path = ../DataPersistance.swift; sourceTree = "<group>"; };
+		13EF0AD91C0422D900D85E90 /* TimeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeData.swift; sourceTree = "<group>"; };
+		13EF0ADB1C04243100D85E90 /* TimeEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimeEntity+CoreDataProperties.swift"; path = "../TimeEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13EF0ADC1C04243100D85E90 /* TimeEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeEntity.swift; path = ../TimeEntity.swift; sourceTree = "<group>"; };
+		13EF0ADF1C04339500D85E90 /* TimeLocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLocationModel.swift; sourceTree = "<group>"; };
+		13EF0AE11C05190300D85E90 /* MainTimerEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MainTimerEntity+CoreDataProperties.swift"; path = "../MainTimerEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13EF0AE21C05190300D85E90 /* MainTimerEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTimerEntity.swift; path = ../MainTimerEntity.swift; sourceTree = "<group>"; };
+		13EF0AE51C05193D00D85E90 /* TimerDataPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerDataPersistance.swift; sourceTree = "<group>"; };
+		13EF0AE91C0519FD00D85E90 /* MainTimerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTimerData.swift; sourceTree = "<group>"; };
+		13EF0AEB1C051EAB00D85E90 /* TimerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		13EF0AF21C052E8300D85E90 /* project3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "project3-Bridging-Header.h"; sourceTree = "<group>"; };
+		13EF0AF31C052E9F00D85E90 /* TimerModelObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerModelObjC.m; sourceTree = "<group>"; };
+		13EF0AF51C052EA800D85E90 /* TimerModelObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerModelObjC.h; sourceTree = "<group>"; };
+		13EF0AF71C05781A00D85E90 /* MainTimerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTimerModel.swift; sourceTree = "<group>"; };
+		13EF0AF91C06139700D85E90 /* StartButtonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButtonData.swift; sourceTree = "<group>"; };
+		13EF0AFF1C0613FF00D85E90 /* StartButtonDataPersistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButtonDataPersistance.swift; sourceTree = "<group>"; };
+		13EF0B011C06173800D85E90 /* StartButtonStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButtonStatus.swift; sourceTree = "<group>"; };
+		13F9FF561C0037BE0059A08E /* ClockFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockFace.swift; sourceTree = "<group>"; };
+		13F9FF581C003A940059A08E /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133B70251BED9435009B227D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C6E72A1C0399FF00C5D728 /* SlideMenuKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1301AB0A1BF2AA5100A4DAD8 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				133B70371BED9435009B227D /* LaunchScreen.storyboard */,
+				133B703A1BED9435009B227D /* Info.plist */,
+				133B70351BED9435009B227D /* Assets.xcassets */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		1301AB0B1BF2AAA200A4DAD8 /* CitySelections */ = {
+			isa = PBXGroup;
+			children = (
+				1301AB061BF17F7600A4DAD8 /* TableViewController.swift */,
+				139BE3071BF5B30300E51FE6 /* SearchClass.swift */,
+				134EE65B1C0AC4C000790C15 /* CitiesAfterSelectionModel.swift */,
+			);
+			name = CitySelections;
+			sourceTree = "<group>";
+		};
+		1301AB0C1BF2AABC00A4DAD8 /* World Clock */ = {
+			isa = PBXGroup;
+			children = (
+				133B702D1BED9435009B227D /* ViewController.swift */,
+				1301AB0E1BF2EAA000A4DAD8 /* WorldClockModel.swift */,
+				13EF0ADF1C04339500D85E90 /* TimeLocationModel.swift */,
+				13F9FF581C003A940059A08E /* ClockView.swift */,
+				13C6E7261C00DD6D00C5D728 /* ClockHoldingView.swift */,
+				13F9FF561C0037BE0059A08E /* ClockFace.swift */,
+				1301AB041BF1790B00A4DAD8 /* PushButton.swift */,
+				1301AB0B1BF2AAA200A4DAD8 /* CitySelections */,
+			);
+			name = "World Clock";
+			sourceTree = "<group>";
+		};
+		1301AB0D1BF2AAE100A4DAD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				133B702B1BED9435009B227D /* AppDelegate.swift */,
+				133B702F1BED9435009B227D /* Main.storyboard */,
+				13EF0AA81C03C8E600D85E90 /* MainNavigationController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		133B701F1BED9435009B227D = {
+			isa = PBXGroup;
+			children = (
+				13C6E7281C0399E800C5D728 /* SlideMenuKit.framework */,
+				133B702A1BED9435009B227D /* project3 */,
+				133B70291BED9435009B227D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133B70291BED9435009B227D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133B70281BED9435009B227D /* project3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133B702A1BED9435009B227D /* project3 */ = {
+			isa = PBXGroup;
+			children = (
+				1301AB0D1BF2AAE100A4DAD8 /* Main */,
+				1301AB0C1BF2AABC00A4DAD8 /* World Clock */,
+				13EF0ACD1C03EF3300D85E90 /* Timer */,
+				13EF0AD81C04221800D85E90 /* Core Data */,
+				1301AB0A1BF2AA5100A4DAD8 /* Supporting files */,
+			);
+			path = project3;
+			sourceTree = "<group>";
+		};
+		13EF0ACD1C03EF3300D85E90 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				13EF0ACE1C03EF8D00D85E90 /* TimerController.swift */,
+				13EF0AEB1C051EAB00D85E90 /* TimerModel.swift */,
+				13EF0AF71C05781A00D85E90 /* MainTimerModel.swift */,
+				13EF0B011C06173800D85E90 /* StartButtonStatus.swift */,
+				1315B7501C06CC7700E8B2F3 /* TimerStringModel.swift */,
+				1315B75A1C0799F100E8B2F3 /* TimePassedModel.swift */,
+				1315B7641C07BE1A00E8B2F3 /* LapTimerModel.swift */,
+				1315B76E1C07C83A00E8B2F3 /* LapStringModel.swift */,
+				13EF0AF61C052EF200D85E90 /* NOT USED */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		13EF0AD81C04221800D85E90 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				13EF0AE81C0519BD00D85E90 /* Timer - CoreData */,
+				13EF0AE71C05199000D85E90 /* WorldClock- CoreData */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		13EF0AE71C05199000D85E90 /* WorldClock- CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				13EF0ADB1C04243100D85E90 /* TimeEntity+CoreDataProperties.swift */,
+				13EF0ADC1C04243100D85E90 /* TimeEntity.swift */,
+				13EF0AD61C0421EC00D85E90 /* DataPersistance.swift */,
+				13EF0AD91C0422D900D85E90 /* TimeData.swift */,
+				134EE6571C0AC2FC00790C15 /* AfterAddingCityPersistance.swift */,
+				134EE6591C0AC30E00790C15 /* AfterAddingCityData.swift */,
+				134EE66B1C0BD6C500790C15 /* FinalCityEntity+CoreDataProperties.swift */,
+				134EE66C1C0BD6C500790C15 /* FinalCityEntity.swift */,
+				134EE6681C0BD64900790C15 /* project3.xcdatamodeld */,
+			);
+			name = "WorldClock- CoreData";
+			sourceTree = "<group>";
+		};
+		13EF0AE81C0519BD00D85E90 /* Timer - CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				13EF0AE11C05190300D85E90 /* MainTimerEntity+CoreDataProperties.swift */,
+				13EF0AE21C05190300D85E90 /* MainTimerEntity.swift */,
+				13EF0AE51C05193D00D85E90 /* TimerDataPersistance.swift */,
+				13EF0AE91C0519FD00D85E90 /* MainTimerData.swift */,
+				1315B7441C06602B00E8B2F3 /* StartButtonBoolEntity+CoreDataProperties.swift */,
+				1315B7451C06602B00E8B2F3 /* StartButtonBoolEntity.swift */,
+				13EF0AF91C06139700D85E90 /* StartButtonData.swift */,
+				13EF0AFF1C0613FF00D85E90 /* StartButtonDataPersistance.swift */,
+				1315B7481C06C78000E8B2F3 /* TimerString+CoreDataProperties.swift */,
+				1315B7491C06C78000E8B2F3 /* TimerString.swift */,
+				1315B74C1C06C7B800E8B2F3 /* TimerStringData.swift */,
+				1315B74E1C06C7CC00E8B2F3 /* TimerStringDataPersistance.swift */,
+				1315B7521C07946900E8B2F3 /* TimePassedEntity+CoreDataProperties.swift */,
+				1315B7531C07946900E8B2F3 /* TimePassedEntity.swift */,
+				1315B7561C07948A00E8B2F3 /* TimePassedData.swift */,
+				1315B7581C07949C00E8B2F3 /* TimePassedDataPersistance.swift */,
+				1315B75C1C07BD3100E8B2F3 /* LapTimerEntity+CoreDataProperties.swift */,
+				1315B75D1C07BD3100E8B2F3 /* LapTimerEntity.swift */,
+				1315B7601C07BD5600E8B2F3 /* LapTimerDataPersistance.swift */,
+				1315B7621C07BD6400E8B2F3 /* LapTimerData.swift */,
+				1315B7661C07C09900E8B2F3 /* LapStringEntity+CoreDataProperties.swift */,
+				1315B7671C07C09900E8B2F3 /* LapStringEntity.swift */,
+				1315B76A1C07C0C500E8B2F3 /* LapStringDataPersistance.swift */,
+				1315B76C1C07C0D400E8B2F3 /* LapStringData.swift */,
+			);
+			name = "Timer - CoreData";
+			sourceTree = "<group>";
+		};
+		13EF0AF61C052EF200D85E90 /* NOT USED */ = {
+			isa = PBXGroup;
+			children = (
+				13EF0AF31C052E9F00D85E90 /* TimerModelObjC.m */,
+				13EF0AF51C052EA800D85E90 /* TimerModelObjC.h */,
+				13EF0AF21C052E8300D85E90 /* project3-Bridging-Header.h */,
+			);
+			name = "NOT USED";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133B70271BED9435009B227D /* project3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133B703D1BED9435009B227D /* Build configuration list for PBXNativeTarget "project3" */;
+			buildPhases = (
+				133B70241BED9435009B227D /* Sources */,
+				133B70251BED9435009B227D /* Frameworks */,
+				133B70261BED9435009B227D /* Resources */,
+				13C6E72C1C0399FF00C5D728 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = project3;
+			productName = project3;
+			productReference = 133B70281BED9435009B227D /* project3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133B70201BED9435009B227D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kruthika Holla";
+				TargetAttributes = {
+					133B70271BED9435009B227D = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = LW2QHWCDB3;
+					};
+				};
+			};
+			buildConfigurationList = 133B70231BED9435009B227D /* Build configuration list for PBXProject "project3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133B701F1BED9435009B227D;
+			productRefGroup = 133B70291BED9435009B227D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133B70271BED9435009B227D /* project3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133B70261BED9435009B227D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133B70391BED9435009B227D /* LaunchScreen.storyboard in Resources */,
+				133B70361BED9435009B227D /* Assets.xcassets in Resources */,
+				133B70311BED9435009B227D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133B70241BED9435009B227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134EE6581C0AC2FC00790C15 /* AfterAddingCityPersistance.swift in Sources */,
+				13EF0AEA1C0519FD00D85E90 /* MainTimerData.swift in Sources */,
+				13EF0ADE1C04243100D85E90 /* TimeEntity.swift in Sources */,
+				134EE66D1C0BD6C500790C15 /* FinalCityEntity+CoreDataProperties.swift in Sources */,
+				1315B74D1C06C7B800E8B2F3 /* TimerStringData.swift in Sources */,
+				1315B74A1C06C78000E8B2F3 /* TimerString+CoreDataProperties.swift in Sources */,
+				1315B7511C06CC7700E8B2F3 /* TimerStringModel.swift in Sources */,
+				1315B7651C07BE1A00E8B2F3 /* LapTimerModel.swift in Sources */,
+				1301AB0F1BF2EAA000A4DAD8 /* WorldClockModel.swift in Sources */,
+				13EF0B021C06173800D85E90 /* StartButtonStatus.swift in Sources */,
+				134EE66A1C0BD64900790C15 /* project3.xcdatamodeld in Sources */,
+				1315B76B1C07C0C500E8B2F3 /* LapStringDataPersistance.swift in Sources */,
+				139BE3081BF5B30300E51FE6 /* SearchClass.swift in Sources */,
+				1315B74B1C06C78000E8B2F3 /* TimerString.swift in Sources */,
+				13EF0B001C0613FF00D85E90 /* StartButtonDataPersistance.swift in Sources */,
+				1315B7691C07C09900E8B2F3 /* LapStringEntity.swift in Sources */,
+				134EE65A1C0AC30E00790C15 /* AfterAddingCityData.swift in Sources */,
+				13EF0AA91C03C8E600D85E90 /* MainNavigationController.swift in Sources */,
+				13EF0AF81C05781A00D85E90 /* MainTimerModel.swift in Sources */,
+				1315B7551C07946900E8B2F3 /* TimePassedEntity.swift in Sources */,
+				1315B74F1C06C7CC00E8B2F3 /* TimerStringDataPersistance.swift in Sources */,
+				1315B7471C06602B00E8B2F3 /* StartButtonBoolEntity.swift in Sources */,
+				134EE66E1C0BD6C500790C15 /* FinalCityEntity.swift in Sources */,
+				1315B75E1C07BD3100E8B2F3 /* LapTimerEntity+CoreDataProperties.swift in Sources */,
+				134EE65C1C0AC4C000790C15 /* CitiesAfterSelectionModel.swift in Sources */,
+				133B702E1BED9435009B227D /* ViewController.swift in Sources */,
+				13EF0ACF1C03EF8D00D85E90 /* TimerController.swift in Sources */,
+				1315B75F1C07BD3100E8B2F3 /* LapTimerEntity.swift in Sources */,
+				1315B7631C07BD6400E8B2F3 /* LapTimerData.swift in Sources */,
+				13EF0AE01C04339500D85E90 /* TimeLocationModel.swift in Sources */,
+				133B702C1BED9435009B227D /* AppDelegate.swift in Sources */,
+				13EF0AFA1C06139700D85E90 /* StartButtonData.swift in Sources */,
+				13EF0AEC1C051EAB00D85E90 /* TimerModel.swift in Sources */,
+				1315B76D1C07C0D400E8B2F3 /* LapStringData.swift in Sources */,
+				13EF0AE31C05190300D85E90 /* MainTimerEntity+CoreDataProperties.swift in Sources */,
+				1315B7571C07948A00E8B2F3 /* TimePassedData.swift in Sources */,
+				1315B76F1C07C83A00E8B2F3 /* LapStringModel.swift in Sources */,
+				13C6E7271C00DD6D00C5D728 /* ClockHoldingView.swift in Sources */,
+				13EF0AE41C05190300D85E90 /* MainTimerEntity.swift in Sources */,
+				13F9FF571C0037BE0059A08E /* ClockFace.swift in Sources */,
+				1315B7681C07C09900E8B2F3 /* LapStringEntity+CoreDataProperties.swift in Sources */,
+				13EF0AD71C0421EC00D85E90 /* DataPersistance.swift in Sources */,
+				1315B75B1C0799F100E8B2F3 /* TimePassedModel.swift in Sources */,
+				1301AB071BF17F7600A4DAD8 /* TableViewController.swift in Sources */,
+				13F9FF591C003A940059A08E /* ClockView.swift in Sources */,
+				13EF0AE61C05193D00D85E90 /* TimerDataPersistance.swift in Sources */,
+				1301AB051BF1790B00A4DAD8 /* PushButton.swift in Sources */,
+				1315B7541C07946900E8B2F3 /* TimePassedEntity+CoreDataProperties.swift in Sources */,
+				13EF0ADD1C04243100D85E90 /* TimeEntity+CoreDataProperties.swift in Sources */,
+				1315B7611C07BD5600E8B2F3 /* LapTimerDataPersistance.swift in Sources */,
+				1315B7591C07949C00E8B2F3 /* TimePassedDataPersistance.swift in Sources */,
+				13EF0AF41C052E9F00D85E90 /* TimerModelObjC.m in Sources */,
+				13EF0ADA1C0422D900D85E90 /* TimeData.swift in Sources */,
+				1315B7461C06602B00E8B2F3 /* StartButtonBoolEntity+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		133B702F1BED9435009B227D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133B70301BED9435009B227D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		133B70371BED9435009B227D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133B70381BED9435009B227D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		133B703B1BED9435009B227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		133B703C1BED9435009B227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133B703E1BED9435009B227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = project3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.project3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "project3/project3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		133B703F1BED9435009B227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = project3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.project3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "project3/project3-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133B70231BED9435009B227D /* Build configuration list for PBXProject "project3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B703B1BED9435009B227D /* Debug */,
+				133B703C1BED9435009B227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133B703D1BED9435009B227D /* Build configuration list for PBXNativeTarget "project3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B703E1BED9435009B227D /* Debug */,
+				133B703F1BED9435009B227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		134EE6681C0BD64900790C15 /* project3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				134EE6691C0BD64900790C15 /* project3.xcdatamodel */,
+			);
+			currentVersion = 134EE6691C0BD64900790C15 /* project3.xcdatamodel */;
+			path = project3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 133B70201BED9435009B227D /* Project object */;
+}
